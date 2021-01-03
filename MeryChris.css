@@ -1,0 +1,34 @@
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+.container {
+   background: url(foto.gif) no-repeat;
+   background-size: cover;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.foto {
+   margin-top: 10px;
+   margin-right: 10px;
+   align-self: flex-end;
+}
+img {
+   object-fit: cover;
+   border: solid 1px #4f03ff;
+   border-radius: 10%;
+}
+.text {
+   font-size: 36px;
+   color: #2b3da5;
+   margin-top: 600px;
+}
+
+.muz {
+   margin-bottom: 50px;
+   margin-top: 10px;
+}
