@@ -1,4 +1,9 @@
+@font-face {
+   font-family: 'OrteROOS';
+   src: url('OrteROOS.ttf');
+}
 body {
+   font-family: 'OrteROOS';
    margin: 0px;
    padding: 0px;
    background: url(snow.jpg);
@@ -27,12 +32,14 @@ img {
    border-radius: 10%;
 }
 .text {
-   font-size: 36px;
-   color: #2b3da5;
+   font-size: 56px;
+   color: #ff0202;
    margin-top: 600px;
+   margin-left: 20px;
 }
 
 .muz {
    margin-bottom: 50px;
    margin-top: 10px;
+   margin-left: 20px;
 }
